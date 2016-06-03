@@ -174,11 +174,11 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.FirstQuadDiag:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad4(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad2(knight);
 
                         break;
@@ -186,11 +186,11 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.SecondQuadDiag:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad3(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad1(knight);
                         
                         break;
@@ -198,11 +198,11 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.ThirdQuadDiag:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad4(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad2(knight);
 
                         break;
@@ -210,11 +210,11 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.FourthQuadDiag:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad3(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad1(knight);
 
                         break;
@@ -222,15 +222,15 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.PositiveXAxis:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad1(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad4(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad3(knight);
 
                         break;
@@ -238,15 +238,15 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.PositiveYAxis:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad1(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad2(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad3(knight);
 
                         break;
@@ -254,30 +254,30 @@ namespace KnightWatch
                 case CloseRangeKnightPositions.NegativeXAxis:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad3(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad1(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad2(knight);
                         break;
                     }
                 case CloseRangeKnightPositions.NegativeYAxis:
                     {
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveX2InQuad3(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad1(knight);
 
                         moveCounter++;
-                        Console.WriteLine("Count: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
+                        Console.WriteLine("Step: " + moveCounter + " Current Knight Position: " + knight.X + ", " + knight.Y);
                         KnightMoves.MoveY2InQuad4(knight);
 
                         break;

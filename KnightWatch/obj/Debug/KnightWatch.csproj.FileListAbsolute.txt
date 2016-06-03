@@ -1,0 +1,5 @@
+C:\Users\suraj\Documents\sovit\gitPrjs\knightsWatch\KnightWatch\bin\Debug\KnightWatch.exe
+C:\Users\suraj\Documents\sovit\gitPrjs\knightsWatch\KnightWatch\bin\Debug\KnightWatch.pdb
+C:\Users\suraj\Documents\sovit\gitPrjs\knightsWatch\KnightWatch\obj\Debug\KnightWatch.csprojResolveAssemblyReference.cache
+C:\Users\suraj\Documents\sovit\gitPrjs\knightsWatch\KnightWatch\obj\Debug\KnightWatch.exe
+C:\Users\suraj\Documents\sovit\gitPrjs\knightsWatch\KnightWatch\obj\Debug\KnightWatch.pdb
