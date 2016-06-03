@@ -7,11 +7,22 @@ namespace KnightWatch
 {
     public class Point
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
         public Point(int x, int y)
         {
             this.X = x; this.Y = y;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="calcDistanceFrom"></param>
         public Point(int x, int y, Point calcDistanceFrom)
         {
             this.X = x; this.Y = y;
@@ -24,7 +35,7 @@ namespace KnightWatch
         public double DistFromGivenPoint { get; set; }
 
         /// <summary>
-        /// 
+        /// Calculate distance between two points
         /// </summary>
         /// <param name="point1"></param>
         /// <param name="point2"></param>
